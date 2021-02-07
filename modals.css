@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    background-image: url(./img/background.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.modal_bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0,0,0,0.5);
+}
+.modal_wrapper {
+    width: 384px;
+    height: 316px;
+    margin: 162px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+.modal_wrapper_2 {
+    width: 384px;
+    height: 380px;
+    margin: 162px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+.modal_header {
+    padding-top: 20px;
+}
+.make_helper {
+    position: relative;
+    margin-left: 0;
+}
+.close {
+    position: absolute;
+    right: 9%;
+    top: 10px;
+    background-image: url(./img/close.png);
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+.close_2 {
+    position: absolute;
+    right: 14%;
+    top: 10px;
+    background-image: url(./img/close.png);
+    width: 14px;
+    height: 14px;
+    cursor: pointer; 
+}
+.modal_header, .modal_body, .modal_footer {
+    padding-left: 24px;
+}
+.staff {
+    margin-top: 16px;
+    color: #7B7E86;
+    font-size: 16px;
+}
+.staff_name {
+    margin-top: 10px;
+}
+.staff_helper {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 8px;
+    color: #7B7E86;
+}
+.choose {
+    width: 336px;
+    height: 40px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding-left: 5px;
+}
+.choose:focus {
+    outline: none;
+}
+.modal_footer {
+    margin-top: 48px;
+    display: flex;
+    justify-content: flex-end;
+}
+.button_cancel {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border:1px solid #0062FF;
+    color: #0062FF;
+    background-color: white;
+    cursor: pointer;
+    width: 120px;
+}
+.button_cancel:focus, .button_save:focus, .button_save_2 {
+    outline: none;
+}
+.button_save {
+    margin-right: 20px;
+    border-radius: 4px;
+    background-color: #0062FF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+}
+.button_save_2 {
+    margin-right: 48px;
+    border-radius: 4px;
+    background-color: #0062FF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 120px
+}
+.make_helper h2 {
+    margin-top: 0;
+}
+.select_person {
+    position: relative;
+}
+.toggle_list {
+    background-image: url(./img/down.png);
+    width: 14px;
+    height: 10px;
+    position: absolute;
+    top: 20px;
+    right: 10%
+}
+/* Modal form body*/
+.form_time {
+    display:grid;
+    grid-template-columns: 1fr 0.1fr 1fr 2fr;
+    grid-gap: 10px;
+    margin-top: 8px;
+}
+.choose_date {
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 300px;
+    display: flex;
+    height: 20px;
+    padding: 5px;
+    position: relative;
+    padding-bottom: 16px;
+}
+.date_label {
+    margin-top: 10px;
+    color: grey;
+}
+.calendar_icon {
+    position: absolute;
+    right: 12px;
+    top: 7px;
+    cursor: pointer;
+}
+.choose_date_day {
+    width: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-right: 7px;
+    padding-bottom: 0;
+}
+.choose_date_month {
+    width: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-right: 7px;
+    padding-bottom: 0;
+}
+.choose_date_year {
+    width: 60px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 0;
+}
+.point, .point_2 {
+    position: absolute;
+    bottom: 11px;
+}
+.point {
+    left: 40px;
+}
+.point_2 {
+    left: 81px;
+}
+.time_from {
+    border: 1px solid grey;
+    padding: 10px;
+    display: flex;
+    width: 115px;
+    border-radius: 6px;
+}
+.time_to {
+    display: flex;
+    width: 115px;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 6px;
+}
+.time_to input {
+    width: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.time_from input {
+    width: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.form_time_label {
+    margin-top: 10px;
+    color: grey;
+    display: block;
+}
+.interval_sign {
+    margin-top: 4px;
+    margin-left: 2px
+}
+.time_icon_1, .time_icon_2 {
+    margin-left: 26px;
+    cursor: pointer;
+}

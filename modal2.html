@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./modals.css">
+    <title>Modal</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="modal_bg">
+            <div class="modal_wrapper_2">
+                <header class="modal_header">
+                    <div class="make_helper">
+                        <h2>Назначить помошника</h2>
+                        <div class="close_2"></div>
+                    </div>
+                </header>
+                <section class="modal_body">
+                    <div class="staff">Сотрудник</div>
+                    <div class="staff_name">Цой Инга Андреевна</div>
+                    <div>
+                        <form>
+                            <div class="form_date">
+                                <div class="date_label">Дата</div>
+                                <div class="choose_date">
+                                    <input type="text" class="choose_date_day" maxlength="2"/>
+                                    <label for="" class="point">.</label>
+                                    <input type="text" class="choose_date_month" maxlength="2"/>
+                                    <label for="" class="point_2">.</label>
+                                    <input type="text" class="choose_date_year" maxlength="4"/>
+                                    <img src="./img/calendar.png" width="16px" height="20px"class="calendar_icon"/>
+                                </div>
+                            </div>
+                            <div>
+                                <label class="form_time_label">Время</label>
+                                <div class="form_time">
+                                    <div class="time_from">
+                                        <input type="text" class="choose_time_from_hours" maxlength="2"/>
+                                        <label for="" class="point_between_1">.</label>
+                                        <input type="text" class="choose_time_from_minutes" maxlength="2"/>
+                                        <img src="./img/time.png" class="time_icon_1"/>
+                                    </div>
+                                    <span class="interval_sign">__</span>
+                                    <div class="time_to">
+                                        <input type="text" class="choose_time_to_hours" maxlength="2"/>
+                                        <label for="" class="point_between_2">.</label>
+                                        <input type="text" class="choose_time_to_minutes" maxlength="2"/>
+                                        <img src="./img/time.png" class="time_icon_2"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+                <footer class="modal_footer">
+                    <button class="button_cancel">Отмена</button>
+                    <button class="button_save_2">Назначить</button>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

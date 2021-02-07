@@ -1,0 +1,304 @@
+body {
+    margin:0;
+    padding: 0;
+}
+.header {
+    border-bottom: 1px solid #ccc;
+    height: 61px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    background-image: url(./img/logo.png);
+    width: 100px;
+    height: 35px;
+    background-size: cover;
+    display: block;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.menu {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+.menu_item {
+    font-size: 20px;
+    color: #615985;
+    margin-left: 12px;
+}
+.menu_item:hover {
+    border-bottom: 2px solid darkblue;
+}
+.menu_item_link {
+    cursor: pointer;
+}
+.search_bar {
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
+}
+.search_bar_input {
+    border: none;
+    margin-top: 9%;
+    font-size: 15px;
+    margin-left: 5px;
+    width: 72%;
+    padding: 5px;
+}
+.search_bar_input:focus{
+    border: none;
+    outline: none;
+}
+.search_icon {
+    margin-top: 10%;
+    margin-left: 5px;cursor: pointer;
+}
+.user_section {
+    display: flex;
+}
+.user_image {
+    width: 64px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: -10%
+}
+.user_name {
+    margin-top: 7%;
+    margin-left: 6px;
+    font-size: 17px;
+}
+.left_block {
+    width: 80%;
+}
+.right_block {
+    width: 30%;
+    position: relative;
+}
+.blocks_wrapper {
+    display: flex;
+    background-color: rgb(245, 239, 239);
+    padding-left: 50px;
+    padding-bottom: 15px;
+}
+.staff {
+    display: flex;
+}
+.staff h3 {
+    font-size: 30px;
+}
+.num_value {
+    margin-left: 10px;
+    width: 23px;
+    height: 20px;
+    background: blue;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    margin-top: 3.4%;
+    padding-top: 1px;
+    vertical-align: unset
+}
+.working_staff_amount {
+    display: flex;
+}
+.working_staff_amount_number {
+    margin-left: 10px;
+    width: 23px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    color: black;
+    padding-top: 1px;
+    vertical-align: unset
+}
+.working_stuff_vishli {
+    font-size: 20px;
+    font-weight: bold;
+}
+.working_staff_amount_arrow {
+    background-image: url(./img/up.png);
+    width: 100px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.working_staff_person:nth-child(1) {
+    margin-top: 10px;
+}
+.working_staff_person {
+    width: 904px;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 0.1fr;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+}
+.working_staff_person_opened {
+    width: 904px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.working_staff_person_wrapper {
+    grid-template-columns: 2fr 1fr 1fr 1fr 0.1fr;
+    grid-gap: 10px;
+    display: grid;
+}
+.shorter {
+    height: 112px;
+}
+.longer {
+    height: 204px;
+}
+.working_staff_person_inner {
+    display: flex;
+    /* border: 1px solid green; */
+}
+.working_staff_person_image_bg {
+    width: 40px;
+    height: 40px;
+    background-color: #D6D8DE;
+    border-radius: 50%;
+    margin-top: 6%;
+    margin-left: 10px;
+}
+.working_staff_person_progress_block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-gap: 7%;
+}
+.working_staff_person_name, .preparing_staff_person_name {
+    margin-top: 19px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.working_staff_person_job, .preparing_staff_person_job {
+    margin-top: 0;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+.working_staff_person_meeting span{
+    color: #3D86FD;
+}
+.working_staff_person_helper p, .preparing_stuff_person_helper p {
+    margin-top: 19px;
+    color: grey;
+}
+.working_staff_person_meeting p {
+    color: grey;
+}
+.working_staff_person_end p{
+    color: grey;
+}
+.arrow_down {
+    background-image: url(./img/down.png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.arrow_up {
+    background-image: url(./img/up.png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.working_staff_person_progress_adaptation {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 6%;
+}
+.progress_line_first, .progress_line_second {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.adaptation_text {
+    margin-top: 0;
+}
+.horizontal_line {
+    margin-top: 18px;
+    margin-bottom: 16px;
+    width: 89%;
+    border-bottom: 1px solid grey;
+    margin: 10px auto;
+}
+.working_staff_person_image {
+    margin-top: 25%;
+    margin-left: 25%;
+}
+.top_otstup {
+    margin-top: 25px;
+}
+.preparing_stuff_person {
+    width: 904px;
+    height: 112px;
+    background-color: #E5E7EB;
+    border-radius: 10px;
+    margin-top: 10px;
+    grid-template-columns: 2fr 1fr 1fr 1fr 0.1fr;
+    grid-gap: 28px;
+    display: grid;
+}
+.preparing_stuff_person_name {
+    display: flex;
+}
+.preparing_stuff_person_date p {
+    color: grey;
+}
+.preparing_stuff_person_meeting button {
+    background-color: #0062FF;
+    color: white;
+    text-align: center;
+    margin-top: 13%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 24px;
+    width: 204px;
+    cursor: pointer;
+}
+.preparing_stuff_person_helper {
+    padding-left: 25px;
+}
+.preparing_stuff_person_helper:nth-child(1) {
+    padding-left: 0px;
+}
+.preparing_stuff_person_date {
+    padding-left: 35px;
+}
+.right_block_header {
+    margin-top: 35px;
+}
+.adaptation_materials_links div {
+    margin-bottom: 10px;
+}
+.link_somewhere, .support a {
+    color: #0062FF;
+    text-decoration: none;
+}
+.questions {
+    position: absolute;
+    bottom: 0;
+}
+.call {
+    display: flex;
+}
+.call img {
+    margin-right: 10px;
+    margin-top: 19px;
+}
+.triangle {
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-top: 10px solid grey;
+    cursor: pointer;
+}
